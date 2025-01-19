@@ -65,6 +65,8 @@ var colorSchema = theme.dark_mode && theme.dark_mode.enable && theme.dark_mode.d
   <%- partial('_partials/scripts.ejs') %>
 
   <%- inject_point('bodyEnd') %>
+  
+  <script src="https://fastly.jsdelivr.net/npm/live2d-widgets@0/autoload.js"></script>
 
   <noscript>
     <div class="noscript-warning"><%- __('noscript_warning') %></div>
